@@ -62,6 +62,7 @@ class App extends React.Component {
     this.setState({inputData : value});
     // console.log(this.state.inputData);
   }
+  
 
   changeWeather = (event) =>{
     event.preventDefault();
